@@ -1,0 +1,35 @@
+.item-list {
+    margin: 24px 0;
+}
+
+.item-list a:link{
+    color: #535353;
+    text-decoration: none;
+}
+.item-list a:visited {
+    text-decoration: none;
+}
+.item-list a:hover {
+    text-decoration: none;
+}
+
+.item-list a:active {
+    text-decoration: none;
+}
+
+
+.item-list strong{
+    margin-top: 10px;
+    padding: 50px 0 0 5px;
+
+    color: #539bf5;
+    font-size: 24px;
+}
+
+
+.item-list p{
+    padding: 5px 0 0 5px;
+    color: #999999;
+    font-size: 24px;
+    padding-bottom: 5px;;
+}

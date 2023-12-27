@@ -1,0 +1,116 @@
+
+
+
+.conteudo {
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    
+
+}
+
+.background {
+    height: 80vh;
+    position: absolute;
+    padding-top: 50px;
+    left: -20%;
+    opacity: 0.5; /* Defina a opacidade conforme necessário */
+   
+
+  
+}
+
+.info {
+    position: absolute;
+    padding-right: 25px;
+    padding-top: 50px;
+    height: 250px;
+    width: 50%;
+    right: 0;
+    color:white;
+}
+
+input{
+    border: 1px solid #999999;
+    border-radius: 22px;
+    min-width: 250px;
+    width: 80%;
+    margin-right: 12px;
+    background: transparent;
+    font-size: 18px ;
+    padding: 10px;
+    color: white;
+}
+button {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    margin-right: 12px;
+
+
+    background:#2D333B;
+    color: #fff;
+    
+    
+    font-size: 18px;
+    padding:10px;
+    text-align: center;
+
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    
+}
+
+.profile{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 1px solid #e5e5e5;
+}
+
+.perfil h3{
+    padding-left: 10px;
+    color: #999999;
+    font-size:24px;
+    margin:0;
+}
+
+.perfil span{
+    display: block;
+    padding-left: 10px;
+    color: #999999;
+    font-size:12px;
+    margin:0;
+}
+.perfil p{
+    color:#999999;
+    font-size:12px;
+    margin: 20px 0 10px 0;
+    padding-left: 20px;
+}
+
+
+.repository h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size: 34px;
+
+    padding: 50px 0 20px 0;
+    margin: 12px 0;
+
+    color: #FFFFFF;
+
+
+    text-align: center;
+
+    
+}
